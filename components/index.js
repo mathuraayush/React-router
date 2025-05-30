@@ -1,0 +1,5 @@
+import './About'
+import './Contact'
+import './Footer'
+import './Header'
+import './Home'
