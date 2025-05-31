@@ -15,13 +15,10 @@ export default function About() {
                             React development is carried out by passionate developers
                         </h2>
                         <p className="mt-6 text-gray-600">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                            At Acme Solutions, we are dedicated to delivering innovative and reliable software products that empower businesses to thrive in a digital world. Our team of passionate developers, designers, and strategists work collaboratively to create solutions tailored to our clients’ unique needs.
                         </p>
                         <p className="mt-4 text-gray-600">
-                            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                            With years of experience in the industry, we pride ourselves on our commitment to quality, transparency, and customer satisfaction. Whether you are a startup or an established enterprise, we are here to help you achieve your goals and drive success through technology.
                         </p>
                     </div>
                 </div>

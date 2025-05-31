@@ -20,8 +20,25 @@ const data=useLoaderData()
    
 
   return (
-    <div className='bg-green-400 p-4 text-3xl  text-center'>Github followers: {data.followers} 
-    <img className='width-300px' src={data.avatar_url}></img>
+    <div className="bg-[oklch(0.63_0.26_28.99)/0.08] p-8 flex flex-col items-center justify-center rounded-lg shadow-md max-w-md mx-auto mt-16">
+      <div className="flex flex-col items-center">
+        <img
+          className="w-40 h-40 rounded-full border-4 border-[oklch(0.63_0.26_28.99)] shadow-lg object-cover mb-4"
+          src={data.avatar_url}
+          alt="Github Avatar"
+        />
+        <div className="text-3xl font-semibold text-gray-900 mb-2">
+          Github followers: <span className="text-[oklch(0.63_0.26_28.99)]">{data.followers}</span>
+        </div>
+        <a
+          href={data.html_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 text-lg text-[oklch(0.63_0.26_28.99)] underline hover:opacity-80"
+        >
+          View Profile
+        </a>
+      </div>
     </div>
   )
 }

@@ -7,11 +7,11 @@ export default function Home() {
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
                             Download Now
-                            <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
+                            <span className="hidden sm:block text-4xl"></span>
                         </h2>
 
                         <Link
-                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
+                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-[oklch(0.63_0.26_28.99)] rounded-lg hover:opacity-75"
                             to="/"
                         >
                             <svg
@@ -38,7 +38,7 @@ export default function Home() {
                 <img className="sm:w-96 w-48" src="https://gofloaters.com/work-from-anywhere-toolkit/assets/images/wfa-toolkit-hero.png" alt="image2" />
             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
+            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Happy Working!</h1>
         </div>
     );
 }
